@@ -1,0 +1,31 @@
+/* Container for the content */
+div {
+    width: 50%; /* The container will take up 50% of the available width of its parent */
+    margin: auto; /* Center the container horizontally */
+  }
+  
+  /* Styling for the main heading */
+  h1 {
+    text-align: center; /* Centers the heading text horizontally */
+    font-family: Arial, sans-serif; /* Uses Arial font for the heading */
+    color: red; /* Sets the text color to red */
+  }
+  
+  /* Styling for the unordered list (product list) */
+  ul {
+    list-style-type: none; /* Removes the default list bullets (no list markers) */
+    padding: 10px; /* Adds 10px of padding inside the unordered list */
+    border: 1px solid #898282; /* Adds a 1px solid border with a gray color around the list */
+    background-color: lightgray; /* Sets the background color to light gray */
+    font-family: Arial, sans-serif; /* Uses Arial font for the list */
+    border-radius: 10px; /* Rounds the corners of the border with a radius of 10px */
+  }
+  
+  /* Styling for each list item */
+  li {
+    font-weight: bold; /* Makes the text of each list item bold */
+    color: green; /* Sets the text color of each list item to green */
+    padding: 5px 0; /* Adds 5px of padding above and below each list item */
+    text-align: center; /* Centers the text of each list item horizontally */
+  }
+  
